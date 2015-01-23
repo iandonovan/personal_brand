@@ -1,5 +1,16 @@
 ie:
-  Welcome: "Dia duit agus fáilte"
+  home:
+    index:
+      Welcome: "Dia duit agus fáilte"
+      Im_Ian: "Is mise Ian"
+      rails_dev: "forbróir Ruby on Rails."
+      living_in_carrboro: "Táim i mo chónaí i gCarrboro, North Carolina"
+    left_sidebar:
+      handsome_and_kind: "chomh dathúil, chomh cineál"
+      good_man: "Fear maith"
+      and_his_code: "Agus a chód"
+      Beautiful: "Álainn"
+      Translate_Page: "Aistrigh an leathnach gréasáin seo"
   About_Me: "Faoi Mé"
   Contact: "Teagmháil"
   Projects: "Tionscadalí"

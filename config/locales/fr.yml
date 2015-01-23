@@ -1,5 +1,16 @@
 fr:
-  Welcome: "Bonjour et bienvenue"
+  home:
+    index:
+      Welcome: "Bonjour et bienvenue"
+      Im_Ian: Je m'appelle Ian
+      rails_dev: "un ingénieur de Ruby on Rails"
+      living_in_carrboro: "qui vit en Carrboro, North Carolina"
+    left_sidebar:
+      handsome_and_kind: "si beau, si sympa"
+      good_man: "L'homme incroyable"
+      and_his_code: "Et son code"
+      Beautiful: "Beau"
+      Translate_Page: "Traduirez cette page"
   About_Me: "Sur Moi"
   Contact: "Contact"
   Projects: "Projects"
