@@ -1,0 +1,38 @@
+.row
+  .medium-12.columns
+    .medium-4.columns
+      = render 'left_sidebar'
+    .medium-8.columns
+      .panel
+        h2.text-center = t('About_Me')
+        br
+        p Put the tea on. We're about to get cozy.
+        p
+          | I was born and raised in New Jersey, where I eventually clawed my way out and went to Tufts University in Medford, Massachusetts, for college. It was a lot of fun: I ran for Student Senate during the spring semester of my senior year, #{ link_to 'winning a contested race', 'http://tuftsdaily.com/news/2012/02/02/thumbnail-optional-tcu-senate-update-three-students-walk-on-to-senate/', target: '_blank' }. I accrued tons of other marketable skills, too, like #{ link_to 'performing stand-up comedy ', 'http://tuftsdaily.com/news/2010/04/23/stand-up-comedy-collective-members-look-to-make-it-big/', target: '_blank' } (we lost horribly) and playing dodgeball. Oh, and I studied Computer Engineering, which I suppose was worth something. Please do not ask me to write assembly code ever again.
+        p
+          | I graduated in May of 2012, when I started working at #{ link_to 'Pubget', 'http://www.pubget.com', target: '_blank' }, a search engine for academic researchers. That's where I was introduced to Ruby on Rails, my current framework of choice. We used Solr, too, for a while, before shifting over to Elasticsearch. We were agile. Am I using enough buzzwords? Uhhhhh, synergy. Leverage. SaaS.
+        p
+          | In August of 2014, I moved to Carrboro, North Carolina, to live with my girlfriend. We have a cat named Henry. I work at #{ link_to 'Smashing Boxes', 'http://www.smashingboxes.com', target: '_blank' }, a tech consultancy in Durham, as a Backend Engineer. I'm brushing up on the frontend, too; this site (you're reading it!) is my first foray into #{ link_to 'Foundation', 'http://foundation.zurb.com/', target: '_blank' }, and I'm learning a bit of Angular in my free time.
+        p
+          | When I'm not working, I'm trying to hone some sort of skill, whether it's programming, learning a foreign language -- I'm #{ link_to 'on Duolingo', 'https://www.duolingo.com/anfeardathuil', target: '_blank' } -- or keeping dust off my drumset. I take the bus to and from work, so I have a lot of time to read. I have read Infinite Jest and I will absolutely mention it on my website in an attempt to impress you.
+        p
+          | If you have any questions, please #{ link_to 'just ask', contact_path }!
+        p
+          | In conclusion, here is a slideshow of animals I've met:
+        .slideshow
+          .slideshow-image
+            = image_tag('henry_basket.jpg')
+            .slideshow-caption.text-center Henry with his favorite basket
+          .slideshow-image
+            = image_tag('henry_standing_basket.jpg')
+          .slideshow-image
+            = image_tag('josie_kitchen.jpg')
+            .slideshow-caption.text-center My family dog, Josie
+          .slideshow-image
+            = image_tag('josie_face.jpg')
+          .slideshow-image
+            = image_tag('chaucer.jpg')
+            .slideshow-caption.text-center Chaucer
+          .slideshow-image
+            = image_tag('lola.jpg')
+            .slideshow-caption.text-center Lola

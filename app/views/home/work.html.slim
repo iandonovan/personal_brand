@@ -1,0 +1,20 @@
+.row
+  .medium-12.columns
+    .medium-4.columns
+      = render 'left_sidebar'
+    .medium-8.columns
+      .panel
+        h2.text-center = t('Projects')
+        br
+        .row
+          .medium-8.columns
+            p #{ link_to 'Sponsored Corgis', 'https://chrome.google.com/webstore/detail/sponsored-corgis/hhjaidjgkafhbemfmgmbkocjcnbbpbep?hl=en-US', target: '_blank' } is a Chrome extension I wrote to replace Facebook Newsfeed ads with pictures of corgis. It's #{ link_to 'open source', 'https://github.com/iandonovan/sponsored_corgis', target: '_blank' }, too.
+          .medium-4.columns
+            = link_to image_tag('corgi.jpg'), image_path('corgi.jpg'), target: '_blank', class: 'th'
+            
+        br
+        .row
+          .medium-8.columns
+            p This website is #{ link_to 'open source!', 'https://github.com/iandonovan/personal_brand' } Isn't that something?
+          .medium-4.columns
+            = link_to image_tag('homepage_screenshot.png'), image_path('homepage_screenshot.png'), target: '_blank', class: 'th'
