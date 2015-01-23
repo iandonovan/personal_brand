@@ -1,5 +1,16 @@
 en:
-  Welcome: "Hello and Welcome"
+  home:
+    index:
+      Welcome: "Hello and Welcome"
+      Im_Ian: "I'm Ian"
+      rails_dev: "a Ruby on Rails developer"
+      living_in_carrboro: "living in Carrboro, North Carolina"
+    left_sidebar:
+      handsome_and_kind: "so handsome, so kind"
+      good_man: "Such a good man"
+      and_his_code: "And his code"
+      Beautiful: "Beautiful"
+      Translate_Page: "Translate Page"
   About_Me: "About Me"
   Contact: "Contact"
   Projects: "Projects"
