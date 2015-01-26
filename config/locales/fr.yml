@@ -1,4 +1,7 @@
 fr:
+  English: "Anglais"
+  French: "Français"
+  Irish: "Irlandais"
   home:
     index:
       Welcome: "Bonjour et bienvenue"
@@ -11,9 +14,6 @@ fr:
       and_his_code: "Et son code"
       Beautiful: "Beau"
       Translate_Page: "Traduirez cette page"
-      English: "Anglais"
-      French: "Français"
-      Irish: "Irlandais"
   About_Me: "Sur Moi"
   Contact: "Contact"
   Projects: "Projects"
