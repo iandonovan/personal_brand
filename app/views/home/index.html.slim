@@ -5,9 +5,9 @@
     .medium-8.columns
       .panel
         h1.text-center = t('.Welcome')
-        h4.subheader.text-center Rails in the Triangle
+        h4.subheader.text-center = t('.RailsTriangle')
         br
         p
-          | #{ t '.Im_Ian' }, #{ t '.rails_dev'} #{ t '.living_in_carrboro' }. #{ t('.Feel_free') }, maybe #{ link_to t('.get_to_know_me'), about_path }, #{ link_to t('.introduce_yourself'), contact_path }, #{ t '.or' } #{ link_to t('.check_my_work'), work_path }. #{ t '.Thanks' }!
+          | #{ t '.Im_Ian' }, #{ t '.rails_dev'} #{ t '.living_in_carrboro' }. #{ t('.Feel_free') }, #{ t('.maybe') } #{ link_to t('.get_to_know_me'), about_path }, #{ link_to t('.introduce_yourself'), contact_path }, #{ t '.or' } #{ link_to t('.check_my_work'), work_path }. #{ t '.Thanks' }!
         p
-          | #{ t('.if_youre_into_it') }, #{ t '.site_three_languages' }: #{ link_to t 'English', locale: 'en' }, #{ link_to t 'French', locale: 'fr' }, and #{ link_to t 'Irish', locale: 'ie' }. #{ t '.Irish_is_a_language' }. #{ t '.You_can' } #{ link_to t('.learn_duolingo'), 'https://www.duolingo.com/course/ga/en/Learn-Irish-Online', target: '_blank' }, #{ t '.though' }!
+          | #{ t('.if_youre_into_it') }, #{ t '.site_three_languages' }: #{ link_to t('English'), locale: 'en' }, #{ link_to t('French'), locale: 'fr' }, #{ t('.and') } #{ link_to t('Irish'), locale: 'ie' }. #{ t '.Irish_is_a_language' }. #{ t '.You_can' } #{ link_to t('.learn_duolingo'), 'https://www.duolingo.com/course/ga/en/Learn-Irish-Online', target: '_blank' }, #{ t '.though' }!
