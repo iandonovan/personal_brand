@@ -7,6 +7,12 @@ ie:
   Contact: "Teagmháil"
   Projects: "Tionscadalí"
   home:
+    left_sidebar:
+      handsome_and_kind: "chomh dathúil, chomh cineál"
+      good_man: "Fear maith"
+      and_his_code: "Agus a chód"
+      Beautiful: "Álainn"
+      Translate_Page: "Aistrigh an leathnach gréasáin seo"
     index:
       Welcome: "Dia duit agus fáilte"
       RailsTriangle: "Rails sa Triantán"
@@ -21,15 +27,17 @@ ie:
       check_my_work: "feic roinnt m'obair"
       Thanks: "Go raibh maith agat"
       if_youre_into_it: "Tugainn pléisiúr duit"
-      site_three_languages: "scríobhtar an suíomh seo ar trí theanga"
+      site_three_languages: "scríobhtar an suíomh seo as trí theanga"
       and: "agus"
-      Irish_is_a_language: "Sea, is é gaeilge teanga é. Ní, ní labhríonn mórán daoine é. Níl fiú i nÉireann"
+      Irish_is_a_language: "Sea, is teanga é gaeilge. Ní, ní labhríonn mórán daoine é. Níl fiú i nÉireann"
       You_can: "Is féidir leat"
       learn_duolingo: "á fhoghlaim ar Duolingo"
       though: "más ea"
-    left_sidebar:
-      handsome_and_kind: "chomh dathúil, chomh cineál"
-      good_man: "Fear maith"
-      and_his_code: "Agus a chód"
-      Beautiful: "Álainn"
-      Translate_Page: "Aistrigh an leathnach gréasáin seo"
+    contact:
+      As_a_citizen: "Mar cathróir na 21ú haoise, cloím le cuntais na sóisialta-meáin"
+      Transcended: "Ní mé aon duine; is #brand mé"
+      Accounts_list: "Úsáidim Facespace, Quibl, agus FarmerChat"
+      Reachable: "Táim i gcónaí ar líne"
+      Synergize: "Cuirfidh ár Thought Leadership le chéile"
+      We_can_be: "Is féidir linn a bheith"
+      thought_lords: "Thought Lords"

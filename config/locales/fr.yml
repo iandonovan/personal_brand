@@ -7,6 +7,12 @@ fr:
   Contact: "Contact"
   Projects: "Projects"
   home:
+    left_sidebar:
+      handsome_and_kind: "si beau, si sympa"
+      good_man: "L'homme incroyable"
+      and_his_code: "Et son code"
+      Beautiful: "Beau"
+      Translate_Page: "Traduisez cette page"
     index:
       Welcome: "Bonjour et bienvenue"
       RailsTriangle: "Rails dans le Triangle"
@@ -27,9 +33,3 @@ fr:
       You_can: "Vous pouvez"
       learn_duolingo: "l'apprendre sur Duolingo"
       though: "pourtant"
-    left_sidebar:
-      handsome_and_kind: "si beau, si sympa"
-      good_man: "L'homme incroyable"
-      and_his_code: "Et son code"
-      Beautiful: "Beau"
-      Translate_Page: "Traduisez cette page"

@@ -7,6 +7,12 @@ en:
   Contact: "Contact"
   Projects: "Projects"
   home:
+    left_sidebar:
+      handsome_and_kind: "so handsome, so kind"
+      good_man: "Such a good man"
+      and_his_code: "And his code"
+      Beautiful: "Beautiful"
+      Translate_Page: "Translate Page"
     index:
       Welcome: "Hello and Welcome"
       RailsTriangle: "Rails in the Triangle"
@@ -27,9 +33,11 @@ en:
       You_can: "You can"
       learn_duolingo: "learn it on Duolingo"
       though: "though"
-    left_sidebar:
-      handsome_and_kind: "so handsome, so kind"
-      good_man: "Such a good man"
-      and_his_code: "And his code"
-      Beautiful: "Beautiful"
-      Translate_Page: "Translate Page"
+    contact:
+      As_a_citizen: "As a citizen of the 21st century, I have registered for and maintain many social media accounts"
+      Transcended: "I have transcended mere personhood; I am a #brand"
+      Accounts_list: "I'm on Facespace, Quibl, and FarmerChat"
+      Reachable: "I'm never not reachable"
+      Synergize: "Let's synergize our thought leadership"
+      We_can_be: "We can be"
+      thought_lords: "Thought Lords"
