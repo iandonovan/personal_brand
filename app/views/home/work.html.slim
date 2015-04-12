@@ -11,6 +11,13 @@
             p #{ link_to 'Sponsored Corgis', 'https://chrome.google.com/webstore/detail/sponsored-corgis/hhjaidjgkafhbemfmgmbkocjcnbbpbep?hl=en-US', target: '_blank' } is a Chrome extension I wrote to replace Facebook Newsfeed ads with pictures of corgis. It's #{ link_to 'open source', 'https://github.com/iandonovan/sponsored_corgis', target: '_blank' }, too.
           .medium-4.columns
             = link_to image_tag('corgi.jpg'), image_path('corgi.jpg'), target: '_blank', class: 'th'
+
+        br
+          .row
+            .medium-8.columns
+              p #{ link_to 'Brandify', 'https://github.com/iandonovan/brandify' } is a #{ link_to 'Rubygem', 'https://rubygems.org/gems/brandify' } to generate Twitter bios. This website is even using it. Watch. Reload the page and the text to the right will change:
+            .medium-4.columns
+              p #{ Brandify.bio }
             
         br
         .row
