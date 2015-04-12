@@ -36,7 +36,6 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    addressable (2.3.6)
     arel (6.0.0)
     better_errors (2.1.1)
       coderay (>= 1.0.0)
@@ -44,36 +43,12 @@ GEM
       rack (>= 0.9.0)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
+    brandify (0.0.1)
     builder (3.2.2)
     byebug (3.5.1)
       columnize (~> 0.8)
       debugger-linecache (~> 1.2)
       slop (~> 3.6)
-    capistrano (3.3.5)
-      capistrano-stats (~> 1.1.0)
-      i18n
-      rake (>= 10.0.0)
-      sshkit (~> 1.3)
-    capistrano-bundler (1.1.3)
-      capistrano (~> 3.1)
-      sshkit (~> 1.2)
-    capistrano-rails (1.1.2)
-      capistrano (~> 3.1)
-      capistrano-bundler (~> 1.1)
-    capistrano-stats (1.1.1)
-    capybara (2.4.4)
-      mime-types (>= 1.16)
-      nokogiri (>= 1.3.3)
-      rack (>= 1.0.0)
-      rack-test (>= 0.5.4)
-      xpath (~> 2.0)
-    capybara-screenshot (1.0.4)
-      capybara (>= 1.0, < 3)
-      colored
-      launchy
-    cliver (0.3.2)
-    codeclimate-test-reporter (0.4.5)
-      simplecov (>= 0.7.1, < 1.0.0)
     coderay (1.1.0)
     coffee-rails (4.1.0)
       coffee-script (>= 2.2.0)
@@ -82,17 +57,11 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.8.0)
-    colored (1.2)
-    colorize (0.7.5)
     columnize (0.9.0)
-    crack (0.4.2)
-      safe_yaml (~> 1.0.0)
     daemons (1.1.9)
-    database_cleaner (1.4.0)
     debug_inspector (0.0.2)
     debugger-linecache (1.2.0)
     diff-lcs (1.2.5)
-    docile (1.1.5)
     erubis (2.7.0)
     eventmachine (1.0.4)
     execjs (2.2.2)
@@ -109,7 +78,6 @@ GEM
     foundation-rails (5.4.5.0)
       railties (>= 3.1.0)
       sass (>= 3.2.0)
-    gherkin-ruby (0.3.2)
     globalid (0.3.0)
       activesupport (>= 4.1.0)
     hike (1.2.3)
@@ -127,32 +95,18 @@ GEM
       railties (>= 3.1.0)
       turbolinks
     json (1.8.2)
-    kgio (2.9.3)
-    launchy (2.4.3)
-      addressable (~> 2.3)
     loofah (2.0.1)
       nokogiri (>= 1.5.9)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
-    metaclass (0.0.4)
     method_source (0.8.2)
     mime-types (2.4.3)
     mini_portile (0.6.2)
     minitest (5.5.1)
-    mocha (1.1.0)
-      metaclass (~> 0.0.1)
     multi_json (1.10.1)
-    net-scp (1.2.1)
-      net-ssh (>= 2.6.5)
-    net-ssh (2.9.2)
     nokogiri (1.6.5)
       mini_portile (~> 0.6.0)
     pg (0.18.1)
-    poltergeist (1.5.1)
-      capybara (~> 2.1)
-      cliver (~> 0.3.1)
-      multi_json (~> 1.0)
-      websocket-driver (>= 0.2.0)
     pry (0.10.1)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -189,7 +143,6 @@ GEM
       activesupport (= 4.2.0)
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
-    raindrops (0.13.0)
     rake (10.4.2)
     rspec-core (3.1.7)
       rspec-support (~> 3.1.0)
@@ -207,7 +160,6 @@ GEM
       rspec-mocks (~> 3.1.0)
       rspec-support (~> 3.1.0)
     rspec-support (3.1.2)
-    safe_yaml (1.0.4)
     sass (3.4.10)
     sass-rails (5.0.1)
       railties (>= 4.0.0, < 5.0)
@@ -215,14 +167,6 @@ GEM
       sprockets (>= 2.8, < 4.0)
       sprockets-rails (>= 2.0, < 4.0)
       tilt (~> 1.1)
-    simple_form (3.1.0)
-      actionpack (~> 4.0)
-      activemodel (~> 4.0)
-    simplecov (0.9.1)
-      docile (~> 1.1.0)
-      multi_json (~> 1.0)
-      simplecov-html (~> 0.8.0)
-    simplecov-html (0.8.0)
     slim (3.0.1)
       temple (~> 0.7.3)
       tilt (>= 1.3.3, < 2.1)
@@ -233,14 +177,6 @@ GEM
       railties (>= 3.1, < 5.0)
       slim (~> 3.0)
     slop (3.6.0)
-    spinach (0.8.10)
-      colorize
-      gherkin-ruby (>= 0.3.2)
-      json
-    spinach-rails (0.2.1)
-      capybara (>= 2.0.0)
-      railties (>= 3)
-      spinach (>= 0.4)
     spring (1.2.0)
     sprockets (2.12.3)
       hike (~> 1.2)
@@ -251,10 +187,6 @@ GEM
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (>= 2.8, < 4.0)
-    sshkit (1.6.1)
-      colorize (>= 0.7.0)
-      net-scp (>= 1.1.2)
-      net-ssh (>= 2.8.0)
     temple (0.7.5)
     thin (1.6.3)
       daemons (~> 1.0, >= 1.0.9)
@@ -270,19 +202,6 @@ GEM
     uglifier (2.7.0)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
-    unicorn (4.8.3)
-      kgio (~> 2.6)
-      rack
-      raindrops (~> 0.7)
-    vcr (2.9.3)
-    webmock (1.20.4)
-      addressable (>= 2.3.6)
-      crack (>= 0.3.2)
-    websocket-driver (0.5.1)
-      websocket-extensions (>= 0.1.0)
-    websocket-extensions (0.1.1)
-    xpath (2.0.0)
-      nokogiri (~> 1.3)
 
 PLATFORMS
   ruby
@@ -290,12 +209,8 @@ PLATFORMS
 DEPENDENCIES
   better_errors
   binding_of_caller
-  capistrano-rails
-  capybara (>= 2.2.0)
-  capybara-screenshot
-  codeclimate-test-reporter
+  brandify
   coffee-rails (~> 4.1.0)
-  database_cleaner
   factory_girl_rails
   faker
   foundation-icons-sass-rails
@@ -304,22 +219,15 @@ DEPENDENCIES
   jquery-rails
   jquery-slick-rails
   jquery-turbolinks
-  mocha
   pg
-  poltergeist
   pry-byebug
   quiet_assets
   rails (= 4.2.0)
   rspec-rails
   sass-rails (~> 5.0)
-  simple_form
   slim
   slim-rails
-  spinach-rails
   spring
   thin
   turbolinks
   uglifier (>= 1.3.0)
-  unicorn
-  vcr
-  webmock
