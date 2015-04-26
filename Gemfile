@@ -7,7 +7,6 @@ gem 'pg'
 
 # Tools
 gem 'brandify'
-gem 'heroku_secrets', github: 'alexpeattie/heroku_secrets'
 
 # Server
 gem 'thin', group: :development
