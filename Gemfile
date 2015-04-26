@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby "2.1.6"
 
 # Backend
 gem 'rails', '4.2.0'
@@ -9,6 +10,7 @@ gem 'brandify'
 
 # Server
 gem 'thin', group: :development
+gem 'unicorn'
 
 # Styling
 gem 'sass-rails', '~> 5.0'
